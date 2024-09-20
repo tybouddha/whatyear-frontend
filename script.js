@@ -1,5 +1,5 @@
 
-fetch('https://whatyear-backend-tawny.vercel.app/year')
+fetch('https://whatyear-backend-tawny.vercel.app/')
     .then(response => response.json())
     .then(data => {
     console.log(data.year);
